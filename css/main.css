@@ -195,7 +195,7 @@ nav ul {
 nav li {
     display: inline;
     color: rgb(0, 0, 0);
-    
+    padding-right: 30px;
 }
 
 .games {
@@ -299,7 +299,7 @@ nav li {
     top: -300px;
 }
 
-#message {
+.message {
     margin-left: 750px;
     position: relative;
     top: -300px;
