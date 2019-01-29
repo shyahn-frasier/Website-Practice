@@ -181,12 +181,10 @@ body {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    margin-left: 1300px;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     background-color: rgb(62, 203, 221);
-    position: fixed;
     top: 0;
     width: 100%;
     font-family: "Bangers", serif;
