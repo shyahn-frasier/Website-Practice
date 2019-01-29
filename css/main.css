@@ -119,31 +119,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#top-button {
-    position: fixed;
-    bottom: 10px;
-    float: right;
-    right: 10%;
-    left: 85.75%;
-    max-width: 100px;
-    width: 100%;
-    font-size: 16px;
-    border-color: rgba(85, 85, 85, 0.2);
-    background-color: rgb(100,100,100);
-    padding: .5px;
-    border-radius: 20px;
-}
-/*On Hover Color Change*/
-#myBtn:hover {
-    background-color: #7dbbf1;
-}
-
 #name,
 h1 {
     color: rgb(62, 203, 221);
     text-align: center;
     font-family: "Bangers", serif;
     font-size: 100px;
+    margin-top: 100px;
 }
 
 h2 {
@@ -158,25 +140,23 @@ body {
 }
 
 .img-1 {
-    width: 400px;
-    height: 600px;
+    width: 600px;
+    height: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 75px;
 }
 
 .about-me {
     color: rgb(62, 203, 221);
-    text-align: center;
     font-family: "Oswald", sans-serif;
     font-size: 40px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 5px;
 }
 
 #about {
-    margin-top: 500px;
+    margin-top: 100px;
 }
 
 nav ul {
@@ -190,6 +170,7 @@ nav ul {
     font-family: "Bangers", serif;
     font-size: 40px;
 }
+
 nav li {
     display: inline;
     color: rgb(0, 0, 0);
@@ -198,12 +179,8 @@ nav li {
 
 .games {
     color: rgb(62, 203, 221);
-    text-align: center;
     font-family: "Oswald", sans-serif;
     font-size: 40px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 5px;
 }
 
 .games-ul {
@@ -216,22 +193,17 @@ nav li {
 }
 
 #games {
-    margin-top: 600px;
+    margin-top: 100px;
 }
 
 .contact {
     color: rgb(62, 203, 221);
-    text-align: center;
     font-family: "Oswald", sans-serif;
     font-size: 40px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 5px;
-    margin-bottom: 500px;
 }
 
 #contact {
-    margin-top: 500px;
+    margin-top: 100px;
 }
 
 .img-2 {
@@ -240,6 +212,8 @@ nav li {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 75px;
 }
 
 .img-3 {
@@ -248,7 +222,8 @@ nav li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 75px;
 }
 
 .img-4 {
@@ -257,62 +232,39 @@ nav li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 200px;
-    position: relative;
-    top: -350px;
+    margin-bottom: 75px;
+    margin-top: 150px;
 }
 
 .footer-p {
     color: rgb(62, 203, 221);
     font-family: "Oswald", sans-serif;
     font-size: 25px;
-    margin-left: 725px;
     margin-bottom: 15px;
 }
 
 .form-h2 {
     color: rgb(62, 203, 221);
     font-family: "Bangers", serif;
-    text-align: center;
     font-size: 75px;
-    position: relative;
-    top: -335px;
 }
 
 .form-name {
     color: rgb(62, 203, 221);
     font-family: "Oswald", sans-serif;
-    text-align: center;
-    margin-left: 750px;
-    position: relative;
-    top: -300px;
+    font-size: 35px;
+}
+
+.form-contact-info {
+    color: rgb(62, 203, 221);
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
 }
 
 .form-message {
     color: rgb(62, 203, 221);
     font-family: "Oswald", sans-serif;
-    text-align: center;
-    margin-left: 750px;
-    position: relative;
-    top: -300px;
-}
-
-.message {
-    margin-left: 750px;
-    position: relative;
-    top: -300px;
-}
-
-.name-input {
-    margin-left: 750px;
-    position: relative;
-    top: -300px;
-}
-
-.submit-button {
-    margin-left: 750px;
-    position: relative;
-    top: -300px;
+    font-size: 35px;
 }
 
 
